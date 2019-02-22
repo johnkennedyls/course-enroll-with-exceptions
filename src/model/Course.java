@@ -1,4 +1,4 @@
-package model;
+-package model;
 
 import customExceptions.OutOfRangeGradeException;
 import customExceptions.QuotaEnrollExceedException;
@@ -8,7 +8,7 @@ public class Course {
 	private double minGrade;
 	private int currentWeek;
 	private int totalGradesAmount;
-	private int maxQuota;
+	private int maxQuota;//cantidad máxima de estudiantes que se pueden matricular en el enunciado
 	
 	private Student[] studentsEnrolled;
 	
